@@ -10,7 +10,7 @@
 		B8C6D5961F3AF81100EE106A /* ApiModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8C6D58C1F3AF81000EE106A /* ApiModule.framework */; };
 		B8C6D59B1F3AF81100EE106A /* ApiModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C6D59A1F3AF81100EE106A /* ApiModuleTests.swift */; };
 		B8C6D59D1F3AF81100EE106A /* ApiModule.h in Headers */ = {isa = PBXBuildFile; fileRef = B8C6D58F1F3AF81000EE106A /* ApiModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B8C6D5A71F3AF83800EE106A /* ApiClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C6D5A61F3AF83800EE106A /* ApiClass.swift */; };
+		B8C6D5AB1F3B20C900EE106A /* ApiClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C6D5AA1F3B20C900EE106A /* ApiClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +30,7 @@
 		B8C6D5951F3AF81100EE106A /* ApiModuleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApiModuleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8C6D59A1F3AF81100EE106A /* ApiModuleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiModuleTests.swift; sourceTree = "<group>"; };
 		B8C6D59C1F3AF81100EE106A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B8C6D5A61F3AF83800EE106A /* ApiClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApiClass.swift; path = ApiModule/ApiClass.swift; sourceTree = "<group>"; };
+		B8C6D5AA1F3B20C900EE106A /* ApiClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 		B8C6D5821F3AF81000EE106A = {
 			isa = PBXGroup;
 			children = (
-				B8C6D5A81F3B1F1C00EE106A /* Classes */,
+				B8C6D5A91F3B20C900EE106A /* Classes */,
 				B8C6D58E1F3AF81000EE106A /* ApiModule */,
 				B8C6D5991F3AF81100EE106A /* ApiModuleTests */,
 				B8C6D58D1F3AF81000EE106A /* Products */,
@@ -89,12 +89,12 @@
 			path = ApiModuleTests;
 			sourceTree = "<group>";
 		};
-		B8C6D5A81F3B1F1C00EE106A /* Classes */ = {
+		B8C6D5A91F3B20C900EE106A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				B8C6D5A61F3AF83800EE106A /* ApiClass.swift */,
+				B8C6D5AA1F3B20C900EE106A /* ApiClass.swift */,
 			);
-			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,7 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8C6D5A71F3AF83800EE106A /* ApiClass.swift in Sources */,
+				B8C6D5AB1F3B20C900EE106A /* ApiClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
