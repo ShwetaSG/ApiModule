@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ApiModule"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "ApiModule is example project to create SDK."
 
   s.description  = "This is completely customised SDK which is created for testing purpose."
@@ -14,9 +14,8 @@ Pod::Spec.new do |s|
  
   s.platform     = :ios, "9.0"
 
-  s.source       = { :git => "https://github.com/ShwetaSG/ApiModule.git", :tag => "1.0.1" }
+  s.source       = { :git => "https://github.com/ShwetaSG/ApiModule.git", :tag => "1.0.2" }
  
   s.source_files = "ApiModule", "Classes/ApiClass.swift"
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.0' }
 
 end
