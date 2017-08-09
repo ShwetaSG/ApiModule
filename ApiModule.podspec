@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/ShwetaSG/ApiModule.git", :tag => "1.0.0" }
  
-  s.source_files = 'Classes'
+  s.source_files = "Classes/ApiClass.swift"
 
 
 end
