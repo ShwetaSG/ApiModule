@@ -30,7 +30,7 @@
 		B8C6D5951F3AF81100EE106A /* ApiModuleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApiModuleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8C6D59A1F3AF81100EE106A /* ApiModuleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiModuleTests.swift; sourceTree = "<group>"; };
 		B8C6D59C1F3AF81100EE106A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B8C6D5A61F3AF83800EE106A /* ApiClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiClass.swift; sourceTree = "<group>"; };
+		B8C6D5A61F3AF83800EE106A /* ApiClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApiClass.swift; path = ApiModule/ApiClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +55,7 @@
 		B8C6D5821F3AF81000EE106A = {
 			isa = PBXGroup;
 			children = (
+				B8C6D5A81F3B1F1C00EE106A /* Classes */,
 				B8C6D58E1F3AF81000EE106A /* ApiModule */,
 				B8C6D5991F3AF81100EE106A /* ApiModuleTests */,
 				B8C6D58D1F3AF81000EE106A /* Products */,
@@ -73,7 +74,6 @@
 		B8C6D58E1F3AF81000EE106A /* ApiModule */ = {
 			isa = PBXGroup;
 			children = (
-				B8C6D5A61F3AF83800EE106A /* ApiClass.swift */,
 				B8C6D58F1F3AF81000EE106A /* ApiModule.h */,
 				B8C6D5901F3AF81000EE106A /* Info.plist */,
 			);
@@ -87,6 +87,14 @@
 				B8C6D59C1F3AF81100EE106A /* Info.plist */,
 			);
 			path = ApiModuleTests;
+			sourceTree = "<group>";
+		};
+		B8C6D5A81F3B1F1C00EE106A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B8C6D5A61F3AF83800EE106A /* ApiClass.swift */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -406,6 +414,7 @@
 				B8C6D5A21F3AF81100EE106A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8C6D5A31F3AF81100EE106A /* Build configuration list for PBXNativeTarget "ApiModuleTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +423,7 @@
 				B8C6D5A51F3AF81100EE106A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
