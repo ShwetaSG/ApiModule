@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
  
   s.platform     = :ios
 
-  s.source       = { :git => "https://github.com/ShwetaSG/ApiModule.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/ShwetaSG/ApiModule.git", :commit => "d26a4a0bce1cbcff8d2b9f608cc41380b65ac487", :tag => "1.0.0" }
  
   s.source_files = "ApiModule/**/*.{h,m}"
 
