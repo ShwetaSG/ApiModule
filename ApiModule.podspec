@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/ShwetaSG/ApiModule.git", :tag => "1.0.1" }
  
   s.source_files = "ApiModule", "Classes/ApiClass.swift"
-
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.0' }
 
 end
