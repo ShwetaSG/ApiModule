@@ -2,11 +2,11 @@ Pod::Spec.new do |s|
 
   s.name         = "ApiModule"
   s.version      = "1.0.0"
-  s.summary      = "A short description of ApiModule."
+  s.summary      = "ApiModule is example project to create SDK."
 
-  s.description  = "This is completely customised SDK"
+  s.description  = "This is completely customised SDK which is created for testing purpose."
 
-  s.homepage     = "http://EXAMPLE/ApiModule"
+  s.homepage     = "http://github.com/ShwetaSG/ApiModule"
   
   s.license      = "MIT"
 
@@ -15,9 +15,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios
 
   s.source       = { :git => "https://github.com/ShwetaSG/ApiModule.git", :tag => "1.0.0" }
+ 
+  s.source_files = "ApiModule/**/*.{h,m}"
 
-  s.source_files  = "ApiModule", "ApiModule/**/*.{h,m,swift}"
-
-  s.resources = "ApiModule/*.mp3"
 
 end
